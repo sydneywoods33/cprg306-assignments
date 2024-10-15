@@ -1,31 +1,36 @@
 import Link from 'next/link';
 
 export default function Home() {
-  let linkStyles = "hover:text-pink-400 text-black underline";
+  let linkStyles = "hover:text-blue-800 text-white py-2 font-bold";
   return (
-    <main className="bg-gray-100 min-h-screen p-8">
-      <div className="max-w-4xl mx-auto bg-pink-100 p-6">
-        <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">CPRG 306: Web Development 2 - Assignments</h1>
-        <ul className="space-y-4">
+    <main style={{ backgroundColor: '#C5D5E4' }} className="min-h-screen p-8">
+      <div style={{ backgroundColor: '#8896AB' }} className="max-w-4xl mx-auto p-6 rounded-lg">
+        <h1 className="text-4xl font-bold text-center mb-8 text-white">CPRG 306: Web Development 2 - Assignments</h1>
+        
+        <ul className="space-y-6">
           <li>
             <Link href="/week-2/">
               <span className={linkStyles}>Week 2 Assignment</span>
             </Link>
+            <p>Introduction to React</p>
           </li>
           <li>
             <Link href="/week-3/">
               <span className={linkStyles}>Week 3 Assignment</span>
             </Link>
+            <p>Components and Props</p>
           </li>
           <li>
             <Link href="/week-4/">
-              <span className={linkStyles}>Week 4 Assignment</span>
+              <span className={linkStyles}>Week 4 Assignment</span> 
             </Link>
+            <p>Basic Interactivity</p>
           </li>
           <li>
             <Link href="/week-5/">
               <span className={linkStyles}>Week 5 Assignment</span>
             </Link>
+            <p>Basic Interactivity with Forms</p>
           </li>
         </ul>
       </div>
