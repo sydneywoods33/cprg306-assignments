@@ -32,6 +32,12 @@ export default function Home() {
             </Link>
             <p>Basic Interactivity with Forms</p>
           </li>
+          <li>
+            <Link href="/week-6/">
+              <span className={linkStyles}>Week 6 Assignment</span>
+            </Link>
+            <p>Handling Lists</p>
+          </li>
         </ul>
       </div>
     </main>
