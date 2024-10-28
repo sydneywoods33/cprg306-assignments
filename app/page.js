@@ -38,6 +38,18 @@ export default function Home() {
             </Link>
             <p>Handling Lists</p>
           </li>
+          <li>
+            <Link href="/week-7/">
+              <span className={linkStyles}>Week 7 Assignment</span>
+            </Link>
+            <p>Managing State</p>
+          </li>
+          <li>
+            <Link href="/week-8/">
+              <span className={linkStyles}>Week 8 Assignment</span>
+            </Link>
+            <p>Fetching Data</p>
+          </li>
         </ul>
       </div>
     </main>
